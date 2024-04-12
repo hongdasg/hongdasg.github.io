@@ -54,6 +54,10 @@ background:transparent;
 .logoimage {
 	height: 46px;
 }
+.youtube-video {
+	aspect-ratio: 16 / 9;
+	width: 100%;
+  }
 .navbar {
 	background-color: #FFFFFF;
 	border-color: rgba(127, 90, 5, 1);
