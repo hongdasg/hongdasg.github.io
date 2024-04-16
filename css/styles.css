@@ -720,6 +720,9 @@ body .header {
 }
 
 @media screen and (max-width:769px) {
+	.firstdiv{
+		margin-top: 200px;
+	}
 #headerwrap h1 {
 	font-size: 80px;
 }
@@ -729,6 +732,9 @@ body .header {
 }
 }
 @media screen and (max-width:480px) {
+	.firstdiv{
+		margin-top: 200px;
+	}
 #headerwrap h1 {
 font-size: 34px;
 }
