@@ -1,6 +1,6 @@
 :root {
-	--maincolor: #1D305A;
-	--secondcolor: #ffffff; 
+	--maincolor: #3f409c;
+	--secondcolor: #ec2d34; 
 }
 
 html, button, input, select, textarea {
@@ -55,7 +55,7 @@ display: inline-block;
 background:transparent;
 }
 .logoimage {
-	height: 46px;
+	height: 50px;
 }
 .video {
 	aspect-ratio: 16 / 9;
@@ -67,6 +67,7 @@ background:transparent;
 	padding: 20px 0;
 	border-bottom: 1px solid rgba(127, 90, 5, 1);
 }
+
 .navbar .nav > li > a {
 color: #1B0B03;
 }
@@ -195,9 +196,18 @@ a:before, a:after {
 	font-weight: 700;
 	font-size: 20px;
 }
-#headernote button{
+#headernote .btn{
 	font-weight: 500;
 	font-size: 20px;
+	background: var(--maincolor);
+	color: white;
+}
+
+#headernote .btn:focus, #headernote .btn:hover{
+	font-weight: 500;
+	font-size: 20px;
+	background: var(--secondcolor);
+	color: white;
 }
 
 #headerwrap {
@@ -723,6 +733,9 @@ body .header {
 	.firstdiv{
 		margin-top: 200px;
 	}
+	.navbar .nav{
+		margin-top: 10px;
+	}
 #headerwrap h1 {
 	font-size: 80px;
 }
@@ -734,6 +747,9 @@ body .header {
 @media screen and (max-width:480px) {
 	.firstdiv{
 		margin-top: 200px;
+	}
+	.navbar .nav{
+		margin-top: 10px;
 	}
 #headerwrap h1 {
 font-size: 34px;
